@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "trade-music"
+version = "0.1.0"
+description = ""
+authors = ["Keigo Kusumegi <kusukun7@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+yfinance = "^0.1.63"
+ipython = "^7.27.0"
+jupyter = "^1.0.0"
+jupyterlab = "^3.1.12"
+plotly = "^5.3.1"
+pydub = "^0.25.1"
+matplotlib = "^3.4.3"
+mplfinance = "^0.12.7-alpha.17"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
